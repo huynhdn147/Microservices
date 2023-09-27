@@ -4,10 +4,10 @@ using Mango.Web.Utility;
 
 namespace Mango.Web.Service
 {
-    public class CouponService : ICouponservice
+    public class Couponservice : ICouponservice
     {
         private readonly IBaseService _baseService;
-        public CouponService(IBaseService baseService)
+        public Couponservice(IBaseService baseService)
         {
             _baseService = baseService;
         }
